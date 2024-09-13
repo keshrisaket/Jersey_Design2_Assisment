@@ -37,6 +37,3 @@ insert … into …). Return final response object back to Client Application.
 
  Here also define one ConnectionUtil to get one Connection Object
 (Singleton Design).
-=======
-Assisment Jersey
->>>>>>> b2f7fad7c5a7cf6f837c0abe14dd3dad58617934

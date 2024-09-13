@@ -16,11 +16,7 @@ public class ClientVerification {
             ps.setString(1,email);
             ps.setString(2,password);
             ResultSet rs= ps.executeQuery();
-            if(rs.next()){
-                return true;
-            }else{
-                return false;
-            }
+            return rs.next();
         }catch (Exception e){
             e.printStackTrace();
             return false;

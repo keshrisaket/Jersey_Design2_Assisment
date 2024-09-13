@@ -21,10 +21,6 @@ public class ClientAuth {
             pwd = values[1];
         }
 
-        if(ClientVerification.clientExist(email,pwd)){
-            return true;
-        }else {
-            return false;
-        }
+        return ClientVerification.clientExist(email, pwd);
     }
 }
